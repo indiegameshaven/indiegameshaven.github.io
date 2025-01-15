@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indie Game Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <svg width="40" height="40" viewBox="0 0 40 40">
+          <path d="M20 0L40 20L20 40L0 20L20 0Z" fill="#ff6b6b"/>
+          <path d="M20 10L30 20L20 30L10 20L20 10Z" fill="white"/>
+        </svg>
+        <span>IndieGamesHaven</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#articles">Articles</a></li>
+      </ul>
+      <button class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Discover Amazing Indie Games</h1>
+      <p>Explore a curated collection of innovative and creative indie games from talented developers around the world.</p>
+      <a href="#featured" class="cta-button">Explore Games</a>
+    </div>
+    <div class="hero-background"></div>
+  </header>
+
+  <section id="featured" class="featured">
+    <h2>Featured Games</h2>
+    <div class="featured-grid" id="featured-games"></div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Game Gallery</h2>
+    <div class="gallery-grid" id="gallery-games"></div>
+  </section>
+
+  <section id="news" class="news">
+    <h2>Latest News</h2>
+    <div class="news-grid" id="news-items"></div>
+  </section>
+
+  <section id="articles" class="articles">
+    <h2>Developer Stories</h2>
+    <div class="articles-grid" id="article-items"></div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>IndieGems</h3>
+        <p>Celebrating independent game development</p>
+      </div>
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <div class="social-links">
+          <a href="https://twitter.com/indiegems"><i class="fab fa-twitter"></i></a>
+          <a href="https://discord.gg/indiegems"><i class="fab fa-discord"></i></a>
+          <a href="https://github.com/indiegems"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 IndieGems. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
